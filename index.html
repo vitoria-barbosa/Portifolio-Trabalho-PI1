@@ -6,21 +6,192 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portifolio</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 </head>
 
 <body>
   <header>
-    <h1>Meu Portifolio</h1>
-    <nav></nav>
+    <h1>&ltJade Pitanga/&gt</h1>
+    <nav>
+      <ul class="lista-nav">
+        <li><a href="#tecnologias">Tecnologias</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+    <section id="tecnologias">
+      <h2>Tecnologias que eu uso.</h2>
+      <p>Aqui estão algumas tecnologias e ferramentas que tenho conhecimento e experiência:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Front-end</th>
+            <th>Back-end</th>
+            <th>Banco de Dados</th>
+            <th>Ferramentas</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="container-tb">
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />CSS</div>
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />HTML
+                </div>
+                <div class="tecnologia"><i class="devicon-tailwindcss-original colored"></i> Tailwind</div>
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+                    alt="react" /> React</div>
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg"
+                    alt="vue" />Vue.js
+                </div>
+              </div>
+            </td>
+            <td>
+              <div class="container-tb">
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg"
+                    alt="spring" />Spring Boot</div>
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg"
+                    alt="django" />Django</div>
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rails/rails-plain.svg"
+                    alt="ruby-on-rails" />Ruby on Rails</div>
+
+            </td>
+            <td>
+              <div class="container-tb">
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+                    alt="postgresql" />PostgreSQL</div>
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+                    alt="mongodb" />MongoDB</div>
+
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                    alt="mysql" />MySQL</div>
+              </div>
+            </td>
+            <td>
+              <div class="container-tb">
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="git" />Git
+                </div>
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                    alt="figma" />Figma</div>
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
+                    alt="postman" />Postman</div>
+                <div class="tecnologia"><img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-plain.svg"
+                    alt="trello" />Trello</div>
+              </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="projetos">
+      <h2>Meus Projetos</h2>
+      <p>Do banco de dados à interface: projetos reais e completos com foco em arquitetura limpa, design responsivo,
+        experiência do usuário e segurança.</p>
+      <div class="cards-projetos">
+        <div class="card-proj">
+          <img src="img/projeto1.png" alt="landing-page-projeto1">
+          <h3>ShopStream</h3>
+          <p>Platarforma de e-commerce completa que permite aos usuários navegar por produtos, adicionar itens ao
+            carrinho e finalizar compras de forma segura. Inclui um painel administrativo para controle de estoque em
+            tempo real, gerenciamento de pedidos e análise de vendas.</p>
+          <ul class="lista-card">
+            <li>React</li>
+            <li>Tailwind CSS</li>
+            <li>Spring Boot</li>
+            <li>PostgreSQL</li>
+            <li>Stripe API</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com" class="link git-hub"><i class="devicon-github-original"></i> GitHub</a>
+            <a href="https://www.google.com" class="link"><img src="img/icons8-link-externo.png" alt="link-externo"> Ver
+              Site</a>
+          </div>
+        </div>
+        <div class="card-proj">
+          <img src="img/projeto2.png" alt="landing-page-projeto2">
+          <h3>KanbanFlow</h3>
+          <p>Um sistema colaborativo de gerenciamento de projetos inspirado no Trello. Permite a criação de quadros,
+            listas e cartões
+            interativos (drag-and-drop). A aplicação atualiza o status das tarefas em tempo real para todos os usuários
+            conectados
+            no mesmo quadro.</p>
+          <ul class="lista-card">
+            <li>Vue.js</li>
+            <li>Ruby on Rails</li>
+            <li>WebSockets</li>
+            <li>PostgreSQL</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com" class="link git-hub"><i class="devicon-github-original"></i> GitHub</a>
+            <a href="https://www.google.com" class="link"><img src="img/icons8-link-externo.png" alt="link-externo"> Ver
+              Site</a>
+          </div>
+        </div>
+        <div class="card-proj">
+          <img src="img/projeto3.png" alt="landing-page-projeto3">
+          <h3>FitSync Analytics</h3>
+          <p>Um aplicativo de rastreamento de saúde onde os usuários podem registrar treinos diários, monitorar a
+            ingestão de água e
+            acompanhar metas nutricionais. O destaque do projeto é a geração automática de gráficos e relatórios
+            semanais sobre o
+            progresso do usuário.</p>
+          <ul class="lista-card">
+            <li>React</li>
+            <li>Ruby on Rails</li>
+            <li>Tailwind CSS</li>
+            <li>MongoDB</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com" class="link git-hub"><i class="devicon-github-original"></i> GitHub</a>
+            <a href="https://www.google.com" class="link"><img src="img/icons8-link-externo.png" alt="link-externo"> Ver
+              Site</a>
+          </div>
+        </div>
+        <div class="card-proj">
+          <img src="img/projeto4.png" alt="landing-page-projeto4">
+          <h3>EcoConnect</h3>
+          <p>Uma plataforma baseada em geolocalização que conecta pessoas interessadas em voluntariado com ONGs locais
+            voltadas para
+            o meio ambiente. Os usuários podem se inscrever em eventos, enquanto as ONGs podem gerenciar os
+            participantes e enviar
+            comunicados internos.</p>
+          <ul class="lista-card">
+            <li>React</li>
+            <li>Spring Boot</li>
+            <li>Tailwind CSS</li>
+            <li>MongoDB</li>
+            <li>Google Maps API</li>
+          </ul>
+          <div class="links">
+            <a href="https://github.com" class="link git-hub"><i class="devicon-github-original"></i> GitHub</a>
+            <a href="https://www.google.com" class="link"><img src="img/icons8-link-externo.png" alt="link-externo"> Ver
+              Site</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sobre"></section>
+    <section id="experiencias"></section>
+    <section id="contato"></section>
   </main>
   <footer>
     Feito com amor por Kamila, Mylena e Vitória.
