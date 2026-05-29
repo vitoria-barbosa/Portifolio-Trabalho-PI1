@@ -233,3 +233,102 @@ th {
   transform: scale(1.15);
   box-shadow: 0 0 10px 2px rgba(0, 255, 149, 0.409);
 }
+
+.apresentacao{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.apresentacao img{
+  width: 100%;
+  height: 32.3rem;
+  object-fit: cover;
+  border-radius: 1.5rem;
+  object-position: 85% center;
+}
+
+.apresentacao h2{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: .05em;
+  margin: 3rem 0 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.apresentacao h1{
+  max-width: 25rem;
+  font-weight: 700;
+  letter-spacing: -.025em;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.apresentacao p {
+  max-width: 28rem;
+  margin-top: .75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.625;
+}
+
+.conteudo {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  left: 2rem;
+}
+
+.cardMissao {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.5rem);
+  border-radius: 1rem; 
+}
+
+.missao{
+  margin: 3.5% 0 3.5% 4.5%;
+  font-size: .875rem;
+  font-weight: 300;
+}
+
+#minhaM {
+  margin: 0;
+  font-size: .875rem;
+  line-height: 1.25rem;
+}
+
+#descMissao {
+  line-height: 1.625;
+}
+
+#fraseMissao {
+  font-style: italic;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+  font-size: .75rem;
+  font-weight: 700;
+  color: var(--cor-branco-translucido);
+  gap: 2rem;
+}
+
+.stats span {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+
+
