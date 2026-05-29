@@ -338,6 +338,89 @@ th {
   gap: 0.4rem;
 }
 
+.linha-tempo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-left: 2px solid rgb(79, 0, 79);
+  padding-left: 2rem;
+  }
+
+.linha-tempo-item {
+  position: relative;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.linha-tempo-ponto {
+  position: absolute;
+  display: flex;
+  left: -3rem;
+  width: 2rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.75rem;
+  border-width: 2px;
+  background-color: var(--cor-preto);
+  border: 2px solid rgb(79, 0, 79);
+}
+
+.linha-tempo-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: var(--cor-cinza-escuro);
+  border-radius: var(--border-radius);
+  border: 1px solid transparent;
+  transition: border 0.3s ease;
+  padding: 1.5rem;
+  width: 100%;
+  box-shadow: var(--box-shadow);
+}
+
+.linha-tempo-card:hover {
+  border: 1px solid rgb(79, 0, 79);
+}
+
+.cargo-modalidade {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cargo-modalidade h3 {
+  font-size: 1rem;
+}
+
+.modalidade {
+  font-size: 0.75rem;
+  padding: 0.3rem 0.8rem;
+  border-radius: var(--border-radius);
+  background-color: var(--cor-cinza-translucido);
+  color: var(--cor-branco-translucido);
+}
+
+.empresa {
+  font-size: 0.75rem;
+  color: var(--cor-branco-translucido);
+}
+
+.descricao-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+}
+
+.descricao-lista li {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--cor-branco-translucido);
+}
+
 @media (max-width: 1270px) {
   * {
     margin: 0;
